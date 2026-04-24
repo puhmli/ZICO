@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZICO 个人主页 - 科学与时尚</title>
+  <!-- 页面描述：供搜索引擎摘要使用 -->
+  <meta name="description" content="ZICO的个人主页：食品安全与健康经济学研究者，同时也是抖音时尚美食故事达人。">
+  <style>
+    /* 基础样式与重置 */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', 'Roboto', 'Noto Sans SC', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #fafafa;
+    }
+    header {
+      background-color: #ff4757; /* 抖音风格色调 */
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+    nav {
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav li {
+      margin: 0;
+    }
+    nav a {
+      display: block;
+      padding: 15px 20px;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    nav a:hover {
+      background-color: #ff4757;
+      color: #fff;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h2 {
+      margin-top: 0;
+      font-size: 2rem;
+      color: #ff4757;
+    }
+    .about, .research, .influencer, .contact {
+      margin-bottom: 40px;
+    }
+    .timeline {
+      margin-left: 0;
+      padding-left: 0;
+      list-style: none;
+    }
+    .timeline-item {
+      margin-bottom: 20px;
+      position: relative;
+      padding-left: 20px;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 6px;
+      width: 10px;
+      height: 10px;
+      background-color: #ff4757;
+      border-radius: 50%;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    a.external-link {
+      color: #ff4757;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ZICO</h1>
+    <p>食品安全与健康经济学研究者 · 抖音时尚美食达人</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">关于我</a></li>
+      <li><a href="#research">科研领域</a></li>
+      <li><a href="#influencer">抖音创作</a></li>
+      <li><a href="#contact">联系</a></li>
+    </ul>
+  </nav>
+  <section id="about" class="about">
+    <div class="container">
+      <h2>关于我</h2>
+      <p>您好！我是<span lang="en">ZICO</span>，一名致力于<span lang="en">Food Safety &amp; Health Economics</span>的科学研究者，也是一名抖音内容创作者，分享时尚穿搭、美食体验和富有温度的故事。</p>
+      <p>我目前主要从事食品安全监管、营养与公共卫生政策的定量研究，希望通过科学严谨的工作为公众健康提供可靠依据。同时，我喜欢用短视频记录生活，把科研之外的观察与感悟带给更多人。</p>
+    </div>
+  </section>
+  <section id="research" class="research">
+    <div class="container">
+      <h2>科研领域</h2>
+      <p>我的学术兴趣包括：</p>
+      <ul class="timeline">
+        <li class="timeline-item">
+          <strong>食品安全监管</strong> – 从政策和市场层面分析食品安全事件背后的经济影响。
+        </li>
+        <li class="timeline-item">
+          <strong>健康经济学</strong> – 研究健康政策、医疗服务与个人健康之间的互动关系。
+        </li>
+        <li class="timeline-item">
+          <strong>营养与公众健康</strong> – 探索营养干预对长期健康的影响，特别关注弱势群体。
+        </li>
+      </ul>
+      <p>在过去几年里，我发表了若干篇相关学术论文，并参与国际会议分享研究成果。</p>
+    </div>
+  </section>
+  <section id="influencer" class="influencer">
+    <div class="container">
+      <h2>抖音创作</h2>
+      <p>作为抖音达人的我，喜欢用镜头记录生活中的精彩瞬间。从时尚穿搭灵感到舌尖上的美食，再到关于城市与人文的故事，每一条作品都是一次关于生活温度的分享。</p>
+      <p>欢迎关注我的抖音账号，和我一起探索更多有趣的话题！</p>
+      <p><a href="https://www.douyin.com" class="external-link" target="_blank" rel="noopener">访问我的抖音主页</a></p>
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>联系</h2>
+      <p>如果你对我的研究感兴趣，或者想合作内容创作，欢迎通过以下方式联系我：</p>
+      <ul>
+        <li>电子邮件：<a href="mailto:your-email@example.com" class="external-link">your-email@example.com</a></li>
+        <li>微博：<a href="https://weibo.com" class="external-link" target="_blank" rel="noopener">@ZICO</a></li>
+        <li>抖音：<a href="https://www.douyin.com" class="external-link" target="_blank" rel="noopener">@ZICO</a></li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    <p>© 2026 ZICO. 保留所有权利。</p>
+  </footer>
+</body>
+</html>
