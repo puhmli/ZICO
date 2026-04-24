@@ -1,0 +1,15 @@
+﻿# Source documents and private project materials
+*.docx
+*.pdf
+~$*.docx
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep published static site files
+!index.html
+!assets/
+!assets/profile.png
