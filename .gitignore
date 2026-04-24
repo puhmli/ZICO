@@ -13,3 +13,6 @@ Thumbs.db
 !index.html
 !assets/
 !assets/profile.png
+
+# Local research scratch data
+openalex_affiliations.json
